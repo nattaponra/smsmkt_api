@@ -2,6 +2,7 @@
     "name": "nattaponra/smsmkt_api",
     "description": "Sdk for easy connect mkt sms service with PHP language.",
     "homepage": "https://pushandmotion.com",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Nattapon Rakthong",
