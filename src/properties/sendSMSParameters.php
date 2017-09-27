@@ -9,7 +9,7 @@
 
 namespace smsmkt_api\properties;
 
-class SendSMSParameters
+class sendSMSParameters
 {
     private $phoneList;
     private $sender;

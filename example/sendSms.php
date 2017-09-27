@@ -8,7 +8,7 @@
  */
 
 use smsmkt_api\SmsMkt;
-use smsmkt_api\properties\SendSMSParameters;
+use smsmkt_api\properties\sendSMSParameters;
 
 require_once __DIR__ . '/../app/autoload.php';
 
@@ -20,7 +20,7 @@ $credit = $SmsMkt->checkCredit();
 print_r($credit);
 
 
-$parameters = new SendSMSParameters();
+$parameters = new sendSMSParameters();
 $parameters->setSender("SENDER_NAME");
 $parameters->setPhoneNumberList(array("08xxxxxxx1","08xxxxxxx2"));
 $parameters->setMessage("HELLO 3DS");

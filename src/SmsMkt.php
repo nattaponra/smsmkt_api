@@ -9,7 +9,7 @@
 
 namespace smsmkt_api;
 
-use smsmkt_api\properties\SendSMSParameters;
+use smsmkt_api\properties\sendSMSParameters;
 
 class SmsMkt
 {
@@ -55,7 +55,7 @@ class SmsMkt
         return $result;
     }
 
-    public function sendSms(SendSMSParameters $parameters)
+    public function sendSms(sendSMSParameters $parameters)
     {
         $inputParameter = array(
             "Sender"  => $parameters->getSender(),
