@@ -6,11 +6,11 @@
  * @link        https://pushandmotion.com
  *
  */
-
+require_once __DIR__ . '/../app/autoload.php';
 use smsmkt_api\SmsMkt;
 use smsmkt_api\properties\sendSMSParameters;
 
-require_once __DIR__ . '/../app/autoload.php';
+
 
 
 $username = "your username";
