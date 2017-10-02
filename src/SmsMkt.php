@@ -60,7 +60,8 @@ class SmsMkt
         $inputParameter = array(
             "Sender"  => $parameters->getSender(),
             "Msnlist" => $parameters->getPhoneNumberListUrl(),
-            "Msg"     => $parameters->getMessage()
+            "Msg"     => $parameters->getMessage(),
+            "Project_id" => $parameters->getProjectId()
         );
         $result = $this->curlExec("SendMsg", $inputParameter);
         return $result;

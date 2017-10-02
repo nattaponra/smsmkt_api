@@ -14,6 +14,7 @@ class sendSMSParameters
     private $phoneList;
     private $sender;
     private $message;
+    private $projectId;
 
     /** @var array $phoneNumbers */
     public function setPhoneNumberList($phoneNumbers)
@@ -53,4 +54,15 @@ class sendSMSParameters
     {
         return $this->message;
     }
+
+    public function setProjectId($id)
+    {
+        $this->projectId = $id;
+    }
+
+    public function getProjectId()
+    {
+        return $this->projectId;
+    }
+
 }

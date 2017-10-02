@@ -22,6 +22,7 @@ print_r($credit);
 
 $parameters = new sendSMSParameters();
 $parameters->setSender("SENDER_NAME");
+$parameters->setProjectId(100);
 $parameters->setPhoneNumberList(array("08xxxxxxx1","08xxxxxxx2"));
 $parameters->setMessage("HELLO 3DS");
 $result = $SmsMkt->sendSms($parameters);
