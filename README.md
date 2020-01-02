@@ -16,7 +16,7 @@ Array
 
 )
 ```
-## 2.Chack your credit
+## 2.Check your credit
 ```php
 $credit = $SmsMkt->checkCredit();
 print_r($credit);
